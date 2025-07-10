@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your Listing</title>
+     <link rel="stylesheet" href="manageListings.css">
+</head>
+<body>
+    <h1>Add Listing</h1>
+
+    <form id="addListing">
+        <input type="text" name="name" placeholder="Name of Home" required>
+        <input type="text" name="price" placeholder="Price of Home" required>
+        <textarea name="description" placeholder="Description of Home" required></textarea>
+        <p>Hold Ctrl on Windows or Command on Mac to Select Multiple Files</p>
+        <p2>After Clicking Submit, Please wait. Things are happening behind the scenes </p2>
+        <input type="file" name="image" accept="image/*" multiple required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Current Listings</h2>
+    <ul id="listingsList"></ul>
+
+   <script type="module" src="manageListings.js"></script>
+</body>
+</html>

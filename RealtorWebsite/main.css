@@ -1,0 +1,208 @@
+/* Content for index.html*/
+
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+#headerImage {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    gap: 30px;
+}
+
+.Banner {
+    height: 50vh;
+    background-image: url('house.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.overlay {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#topText {
+    color: lightskyblue;
+}
+
+#seeListings {
+    background-color: blue;
+    color: white;
+}
+
+.AboutMe {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+#TGImg {
+    transform: scale(0.8);
+}
+
+.AboutMeText {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#TGImg {
+    display:inline
+}
+
+.ContactUS {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#contactUsText {
+    color:lightskyblue;
+    margin:0;
+}
+
+.divider {
+    border-color: lightskyblue;
+    transform: scale(0.8);
+}
+
+#number {
+    opacity: 50%;
+}
+
+#email {
+    opacity: 50%;
+}
+
+#number2 {
+    opacity: 50%;
+}
+
+#currentDay {
+    display: inline;
+}
+
+#showSchedule {
+    color: lightskyblue;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#schedule {
+    opacity: 50%;
+}
+
+.FollowUS {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#FollowUSText {
+    color:lightskyblue;
+    margin:0;
+}
+
+#fbLogo {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Content for listings.html*/
+
+#listingsContainer {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 32px; 
+  padding: 32px;
+}
+
+.listing-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100vh;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center; 
+}
+
+.listing-card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: lightskyblue;
+}
+
+.divider {
+    width: 80%; 
+    height: 2px; 
+    background-color: lightskyblue; 
+    margin: 10px auto;
+}
+
+.image-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  border: 1px solid #ddd;
+}
+
+.listing-img {
+  flex: 0 0 auto;
+  width: 80vh;
+  height: 60vh;
+  object-fit: cover;
+  scroll-snap-align: center;
+  border-radius: 8px;
+}
+
+.listing-description {
+  font-size: 1rem;
+  color: gray;
+  line-height: 1.5;
+}
+
+.listing-price {
+  font-weight: bold;
+  color: green;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: gray;
+}
+
+form#addListing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+form textarea{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+p2 {
+    font-weight: bold;;
+}
+
+form button {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
