@@ -1,1 +1,9 @@
 # RealtorWebsite
+
+My mother is a realter and made a website using GoDaddy's website builder service. She uses the website to market herself and list the houses she currently has up for sale. She has often complained to me how difficult the website builder is to use and how expensive it is. Her biggest frustration with the service is adding and removing homes from the website. Because of this problem with GoDaddy, the website is often outdated, defeating the purpose of showing her current listings. I thought it would be a good exercise to rebuild her website from scratch. I could copy the design of her current website, make a simple way to add or remove listings, and save her the money she spends on the website builder subscription. I built the website using HTML, CSS, and JavaScript
+
+The biggest change I had to make to the website was how you can add or remove listings. Before she had to go onto the GoDaddy website builder and change the website there. I thought it would be better to do it all through a simple form. I made a HTML form with a name, price and descripton text box. Below that was a place to add images and a submit button. Clicking submit saves the infomation to a database on the cloud. I used the firebase firstore as my database. While uploading the text information was easy, the images were more complicated. However, I figured out how to upload the images privetly to my imgur account. I then added private links to the images in an array to the database with the other text information. On the listings page, it pulls all entires from the firebase database and creates a card showcasing the information for each one. On the bottom, it also shows each listing currently in the database with a delete button next to them. 
+
+In the code for the website provided, I have censored elements I beleive would compromise security. Below I have added a link if you would like to see for yourself. 
+
+https://traceygoebelrealtor.com
